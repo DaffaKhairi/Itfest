@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #081420;
+}
+
+header{
+    position: relative;
+    /* width harus 100% dikaranakan untuk memenuhi halaman */
+    width: 100%;
+    padding-top: 30px;
+    min-height: 90px;
+    /* rgba sudah termasuk opacity */
+    background:#08142080;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.navbar {
+    float: right;
+    margin-right: 15px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.navbar li{
+    padding-right: 40px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Rowdies';
+}
+/* .navbar a{
+    color: white;
+    font-weight: bold;
+    padding-inline: 26px;
+    text-decoration: none;
+    font-family: 'Rowdies';
+    margin: 0;
+} */
+
+.navbar .button1{
+    border-color: white;
+    padding: 5px 20px 5px 20px ;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.navbar .button1:hover{
+    background: white;
+    color: black;
+}
+
+.logo{
+    float: left;
+    margin-left: 30px;
+}
+
+.logo img{
+    width: 165px;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    padding-top: 9rem;
+    min-height: 270px;
+}
+
+.icon-1{
+    position:absolute;
+    right: 0;  
+    top: 0;
+    z-index: -1;
+    width: 600px;
+}
+
+.container1{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ItfestLogo{
+    padding-top: 6px;
+    padding-left: 196px;
+    width: 452px;
+    float: left;
+}
+
+.hero{
+    float: right;
+    padding-right: 3rem;
+    padding-top: 134px;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.more_button{
+    float: right;
+    padding-top: 56px;
+    margin-right: 374px;
+}
+
+.more{
+    padding: 22px 62px ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(255, 119, 0) , rgb(255, 162, 0));
+}
+
+.sponsor_icon2{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.icon-2{
+    position: absolute;
+    left: 0;
+    margin-bottom: 400px;
+    width: 400px;
+}
+
+.icon-3{
+    right: 0;
+    padding-top: 446px;
+    width: 176px;
+    position: absolute;
+}
+
+.sponsor{
+    position: absolute;
+    right: 0;
+    padding-top: 142px;
+    padding-right: 80px;
+}
+
+.sponsor h3{
+    color: white;
+    position: absolute;
+    right: 90px;
+    font-size: 22px;
+    font-family: 'Rowdies';
+    
+}
+
+.sponsor img{
+    padding-top: 58px;
+    width: 70px;
+    padding-right: 12px;
+}
+
+.main2{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.container2{
+    margin: 0 90px 0 516px;
+}
+
+.title{
+    font-size: 56px;
+    font-family: 'Rowdies';
+
+}
+
+.container2 p{
+    color: white;
+
+}
